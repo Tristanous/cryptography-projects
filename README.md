@@ -1,6 +1,6 @@
 # Cryptography Projects
 
-This repository is a personal playground for classical and modern cryptography:
+This repository is a personnal playground for classical and modern cryptography:
 
 - CTF challenges i've made
 - Reusable tooling for encoding/decoding and RSA
