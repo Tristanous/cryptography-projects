@@ -16,7 +16,7 @@ This repository is a personnal playground for classical and modern cryptography:
 ├── challs/           # CTF challenges + writeups
 ├── encodage/         # Encoding / decoding helpers
 ├── lattices/         # Sage lattice utilities (LLL, Coppersmith, etc.)
-├── post-quantum/     # Toy post-quantum schemes (Kyber, Dilithium, SPHINCS…)
+├── post-quantum/     # Post-quantum schemes (Kyber, Dilithium, SPHINCS…)
 ├── rsa/              # RSA toolbox (factoring, Wiener, common modulus…)
 └── README.md
 ```
