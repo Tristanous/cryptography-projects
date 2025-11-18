@@ -1,0 +1,41 @@
+# Required sections
+name: "F || G"
+author: "tristanous"
+# Cryptanalyse ; Forensic ; Hardware ; Misc ; Osint ; Programmation ; Pwn ; Reseau ; Reverse ; Steganographie ; Systeme ; Web
+category: "Cryptanalyse"
+
+# Markdown friendly
+description: |-
+    Par soucis de sécurité on s'est dit que concaténer deux fonctions de hachage était une super idée, ça l'est n'est-ce pas ?
+
+    Format du flag : `NBCTF{...}`
+
+    Auteur : [tristanous](https://tristanous.fr/)
+
+# Do not touch
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+
+connection_info: deploy
+
+flags:
+    - NBCTF{Les_secrets_sont_tjrs_derriere_les_cascades}
+
+# Difficulties: Introduction; Facile; Moyen; Difficile; Démon
+tags:
+    - Moyen
+
+# Can be removed if unused
+files:
+    - dist/server.py
+
+# visible | hidden
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

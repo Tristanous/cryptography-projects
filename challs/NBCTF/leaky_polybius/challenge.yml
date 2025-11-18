@@ -1,0 +1,43 @@
+# Required sections
+name: "leaky_polybius"
+author: "tristanous" 
+# Cryptanalyse ; Forensic ; Hardware ; Misc ; Osint ; Programmation ; Pwn ; Reseau ; Reverse ; Steganographie ; Systeme ; Web
+category: "Cryptanalyse"
+
+# Markdown friendly
+description: |-
+    L'oracle de ce service de chiffrement est sacrément bavard... À vous d'en profiter pour retrouver le secret.
+
+    Format du flag : `NBCTF{...}`
+
+    Auteur : tristanous
+
+# Do not touch
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+
+connection_info: nc challenges.nobrackets.fr 10400
+
+flags:
+    - NBCTF{M3rc1_P0lyBe_P0ur_L35_7r4v4ux}
+
+# Difficulties: Introduction; Facile; Moyen; Difficile; Démon
+tags:
+    - Facile
+    - Oracle
+    - Polybe
+
+# Can be removed if unused
+files:
+    - dist/chall.py
+
+# visible | hidden
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

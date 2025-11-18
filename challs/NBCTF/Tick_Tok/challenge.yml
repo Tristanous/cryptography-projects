@@ -1,0 +1,42 @@
+# Required sections
+name: "Tick Tok"
+author: "tristanous"
+# Cryptanalyse ; Forensic ; Hardware ; Misc ; Osint ; Programmation ; Pwn ; Reseau ; Reverse ; Steganographie ; Systeme ; Web
+category: "Cryptanalyse"
+
+# Markdown friendly
+description: |-
+    Ce service a l’air d’aimer prendre son temps et il a bien raison ZZzzzz
+
+    Format du flag : `NBCTF{...}`
+
+    Auteur : [tristanous](https://tristanous.fr/)
+
+# Do not touch
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+
+connection_info: deploy
+
+flags:
+    - NBCTF{comme_quoi_c_est_beaucoup_3_milliemes}
+
+# Difficulties: Introduction; Facile; Moyen; Difficile; Démon
+tags:
+    - Facile
+    - Oracle
+
+# Can be removed if unused
+files:
+    - dist/server.py
+
+# visible | hidden
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

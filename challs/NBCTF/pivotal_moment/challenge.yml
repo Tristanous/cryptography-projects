@@ -1,0 +1,42 @@
+# Required sections
+name: "pivotal_moment"
+author: "tristanous" 
+# Cryptanalyse ; Forensic ; Hardware ; Misc ; Osint ; Programmation ; Pwn ; Reseau ; Reverse ; Steganographie ; Systeme ; Web
+category: "Cryptanalyse"
+
+# Markdown friendly
+description: |-
+    Saurez-vous retrouver le polynôme? Bon courage ! 
+
+    Format du flag : `NBCTF{...}`
+
+    Auteur : tristanous
+
+# Do not touch
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+
+connection_info: nc challenges.nobrackets.fr 10400
+
+flags:
+    - NBCTF{Th3ori4_motus_corporum_coelesti4_in_s3ctionibus_conicis_sol3m_4mbientium}
+
+# Difficulties: Introduction; Facile; Moyen; Difficile; Démon
+tags:
+    - Moyen
+
+# Can be removed if unused
+files:
+    - dist/chall.py
+    - dist/output.txt
+
+# visible | hidden
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

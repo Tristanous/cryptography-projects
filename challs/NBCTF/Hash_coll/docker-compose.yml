@@ -1,0 +1,9 @@
+services:
+  timing-oracle:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: F || G
+    ports:
+      - "1337:1337"
+    restart: unless-stopped

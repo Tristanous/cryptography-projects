@@ -1,0 +1,10 @@
+
+services:
+  challenge-crypto:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile
+    image: oracle-polybe-challenge
+    ports:
+      - "1337:1337"
+    restart: always
